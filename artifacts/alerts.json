@@ -1,0 +1,22 @@
+[
+  {
+    "round_num": 1,
+    "attack_type": "adversarial_ml",
+    "failed_layer": "Ensemble Decision-Boundary Layer",
+    "what_happened": "9 of 40 adversarial ml transactions were scored below the detection threshold.",
+    "why": "The classifier relies heavily on deviation_from_avg_amount, amount for this layer, but in these missed cases those features sit within 0.00 standard deviations of normal legitimate traffic \u2014 the attack is engineered to look statistically ordinary on exactly the dimensions this layer checks. The model also assigns low learned importance to deviation_from_avg_amount, amount, confirming the classifier isn't weighting these signals meaningfully.",
+    "impact": "Attack classified as legitimate.",
+    "remediation": "Run adversarial local-search against the CURRENT model to generate harder boundary-evading variants \u2192 retrain \u2192 re-evaluate.",
+    "status": "\ud83d\udd34 Requires retraining"
+  },
+  {
+    "round_num": 2,
+    "attack_type": "adversarial_ml",
+    "failed_layer": "Ensemble Decision-Boundary Layer",
+    "what_happened": "3 of 40 adversarial ml transactions were scored below the detection threshold.",
+    "why": "The classifier relies heavily on ip_risk_score, deviation_from_avg_amount for this layer, but in these missed cases those features sit within 0.04 standard deviations of normal legitimate traffic \u2014 the attack is engineered to look statistically ordinary on exactly the dimensions this layer checks. The model also assigns low learned importance to ip_risk_score, deviation_from_avg_amount, amount, confirming the classifier isn't weighting these signals meaningfully.",
+    "impact": "Attack classified as legitimate.",
+    "remediation": "Run adversarial local-search against the CURRENT model to generate harder boundary-evading variants \u2192 retrain \u2192 re-evaluate.",
+    "status": "\ud83d\udd34 Requires retraining"
+  }
+]

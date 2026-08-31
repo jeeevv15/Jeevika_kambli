@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background: #F4F2FC; color: #0F1222; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #E3DEF5; border-radius: 8px; }
+
+h1, h2, h3, .font-heading { font-family: "Space Grotesk", system-ui, sans-serif; }
+
+/* ---------- Metric blob card (Uiverse by Javierrocadev, adapted) ---------- */
+.metric-blob-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.metric-blob-card::before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: -40%;
+  left: -20%;
+  border-radius: 50%;
+  border: 35px solid rgba(255, 255, 255, 0.5);
+  filter: blur(0.5rem);
+  transition: all 0.8s ease;
+  pointer-events: none;
+}
+.metric-blob-card:hover::before {
+  width: 160px;
+  height: 160px;
+  top: -30%;
+  left: 55%;
+  filter: blur(0rem);
+}
+
+/* ---------- Sidebar nav item (Uiverse by imtausef, adapted) ---------- */
+.nav-item {
+  display: flex; align-items: center; gap: 10px;
+  color: #0F1222; font-weight: 600; font-size: 0.875rem;
+  padding: 8px 10px; border-radius: 8px;
+  transition: all 0.2s ease-out;
+}
+.nav-item svg { transition: all 0.2s ease-out; }
+.nav-item:hover { background-color: #6C4EE3; color: #fff; transform: translate(1px, -1px); }
+.nav-item:hover svg { stroke: #fff; }
+.nav-item:active { transform: scale(0.99); }
+.nav-item.active { background-color: #6C4EE3; color: #fff; }
+.nav-item.active svg { stroke: #fff; }
+
+/* ---------- Button (Uiverse by Mhyar-nsi, adapted) ---------- */
+.btn-fx {
+  background-color: #EEF2FF;
+  color: #6C4EE3;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: 0.3s;
+}
+.btn-fx:hover:not(:disabled) {
+  background-color: #6C4EE3;
+  box-shadow: 0 0 0 5px rgba(108, 78, 227, 0.2);
+  color: #fff;
+}
+.btn-fx:disabled { opacity: 0.5; cursor: default; }

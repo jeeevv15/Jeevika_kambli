@@ -1,0 +1,119 @@
+[
+  {
+    "round": 1,
+    "recall_by_attack_type": [
+      {
+        "attack_type": "adversarial_ml",
+        "total": 40,
+        "caught": 31,
+        "recall": 0.775
+      },
+      {
+        "attack_type": "account_takeover",
+        "total": 40,
+        "caught": 40,
+        "recall": 1.0
+      },
+      {
+        "attack_type": "bot_automation",
+        "total": 30,
+        "caught": 30,
+        "recall": 1.0
+      },
+      {
+        "attack_type": "card_abuse",
+        "total": 25,
+        "caught": 25,
+        "recall": 1.0
+      }
+    ],
+    "overall": {
+      "precision": 1.0,
+      "recall": 0.9333,
+      "f1": 0.9655,
+      "roc_auc": 0.9966,
+      "false_positive_rate": 0.0,
+      "total_transactions": 385,
+      "total_fraud": 135,
+      "total_caught": 126
+    }
+  },
+  {
+    "round": 2,
+    "recall_by_attack_type": [
+      {
+        "attack_type": "adversarial_ml",
+        "total": 40,
+        "caught": 37,
+        "recall": 0.925
+      },
+      {
+        "attack_type": "account_takeover",
+        "total": 40,
+        "caught": 40,
+        "recall": 1.0
+      },
+      {
+        "attack_type": "bot_automation",
+        "total": 30,
+        "caught": 30,
+        "recall": 1.0
+      },
+      {
+        "attack_type": "card_abuse",
+        "total": 25,
+        "caught": 25,
+        "recall": 1.0
+      }
+    ],
+    "overall": {
+      "precision": 0.9925,
+      "recall": 0.9778,
+      "f1": 0.9851,
+      "roc_auc": 0.9998,
+      "false_positive_rate": 0.004,
+      "total_transactions": 385,
+      "total_fraud": 135,
+      "total_caught": 132
+    }
+  },
+  {
+    "round": 3,
+    "recall_by_attack_type": [
+      {
+        "attack_type": "account_takeover",
+        "total": 40,
+        "caught": 40,
+        "recall": 1.0
+      },
+      {
+        "attack_type": "adversarial_ml",
+        "total": 40,
+        "caught": 40,
+        "recall": 1.0
+      },
+      {
+        "attack_type": "bot_automation",
+        "total": 30,
+        "caught": 30,
+        "recall": 1.0
+      },
+      {
+        "attack_type": "card_abuse",
+        "total": 25,
+        "caught": 25,
+        "recall": 1.0
+      }
+    ],
+    "overall": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "false_positive_rate": 0.0,
+      "total_transactions": 385,
+      "total_fraud": 135,
+      "total_caught": 135
+    }
+  }
+]
