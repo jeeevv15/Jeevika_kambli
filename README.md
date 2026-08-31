@@ -103,3 +103,18 @@ This was built and is run by a single person. The closed loop is intentionally
 scoped to 5 attack families run deeply and well (Card Abuse, Account Takeover,
 Bot/Automation, Adversarial-ML, Poisoning) rather than shallow coverage of 20+ —
 fidelity and a working demo beat breadth that doesn't run.
+
+<img width="960" height="438" alt="Screenshot 2026-08-31 230108" src="https://github.com/user-attachments/assets/0c83679b-418f-4eb3-943c-521f6ddd8403" />
+<img width="936" height="439" alt="Screenshot 2026-08-31 230206" src="https://github.com/user-attachments/assets/f1304d46-3bf2-4fbc-b28f-4ffb9c410ef5" />
+<img width="958" height="442" alt="Screenshot 2026-08-31 230219" src="https://github.com/user-attachments/assets/a90fd7bf-1c68-43e9-8366-619dc807d8b1" />
+<img width="960" height="437" alt="Screenshot 2026-08-31 230237" src="https://github.com/user-attachments/assets/c7462c9f-199f-48b4-98ae-e4031e3ab118" />
+<img width="959" height="438" alt="Screenshot 2026-08-31 230248" src="https://github.com/user-attachments/assets/ad026b7a-afa6-43ed-8c4b-f4fb8f470627" />
+<img width="960" height="438" alt="Screenshot 2026-08-31 230304" src="https://github.com/user-attachments/assets/680164cc-66d3-4159-874b-e00c1e970b85" />
+<img width="941" height="439" alt="Screenshot 2026-08-31 230320" src="https://github.com/user-attachments/assets/930602f4-b6c6-412a-b6ff-00c6e89c614b" />
+<img width="957" height="439" alt="Screenshot 2026-08-31 230335" src="https://github.com/user-attachments/assets/e7b8b6a1-4fdd-446d-9097-6c5031a034f5" />
+<img width="959" height="439" alt="Screenshot 2026-08-31 230352" src="https://github.com/user-attachments/assets/93fb2488-ff0d-4299-b0b0-bb00aedddc13" />
+<img width="959" height="439" alt="Screenshot 2026-08-31 230403" src="https://github.com/user-attachments/assets/bcbf91ea-964d-4c29-911d-77a516ce8553" />
+<img width="958" height="440" alt="Screenshot 2026-08-31 230410" src="https://github.com/user-attachments/assets/ff4799b8-e6db-4fe7-81ee-bc68a874a6ca" />
+
+
+
